@@ -16,16 +16,40 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    Simple, traffic-based pricing Sign-up for our 30-day trial. No credit card
-    required. Pageviews $ /month Monthly Billing Yearly Billing 25% discount
-    Unlimited websites 100% data ownership Email reports Start my trial
+    <header>
+      <h1>Simple, traffic-based pricing</h1>
+      <h2>Sign-up for our 30-day trial. No credit card required.</h2>
+    </header>
+    <main>
+      <div>
+        <p><span class="views"></span> Pageviews</p>
+        <input type="range" name="range" id="range" />
+        <p class="price">$<span>/month</span></p>
+      </div>
+      <div>
+        <span>Monthly Billing</span>
+        <label class="switch">
+          <input type="checkbox" />
+          <span class="slider round"></span>
+        </label>
+        <span>Yearly Billing</span>
+        <span>25%</span>
+        <span>25% discount</span>
+      </div>
+      <div>
+        <input type="checkbox" name="" id="" />
+        Unlimited websites 100% data ownership Email reports Start my trial
+      </div>
+    </main>
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </footer>
     <script src="./script.js"></script>
   </body>
 </html>
