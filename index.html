@@ -21,24 +21,49 @@
       <h2>Sign-up for our 30-day trial. No credit card required.</h2>
     </header>
     <main>
-      <div>
-        <p><span class="views"></span> Pageviews</p>
-        <input type="range" name="range" id="range" />
-        <p class="price">$<span>/month</span></p>
+      <div class="pricing">
+        <p class="views-container"><span class="views"></span> PAGEVIEWS</p>
+        <p class="price-container">
+          <span class="price">$ <span class="price-value">16.00</span> </span
+          ><span>/ month</span>
+        </p>
+        <input
+          type="range"
+          name="range"
+          id="range"
+          min="0"
+          max="100"
+          step="25"
+          value="50"
+        />
       </div>
-      <div>
+      <div class="billing">
         <span>Monthly Billing</span>
         <label class="switch">
-          <input type="checkbox" />
+          <input type="checkbox" id="checkbox" />
           <span class="slider round"></span>
         </label>
         <span>Yearly Billing</span>
-        <span>25%</span>
-        <span>25% discount</span>
+        <span class="discount">25% discount</span>
+        <span class="discount-mobile">-25%</span>
       </div>
-      <div>
-        <input type="checkbox" name="" id="" />
-        Unlimited websites 100% data ownership Email reports Start my trial
+      <hr />
+      <div class="benefits">
+        <div class="benefits-container">
+          <p>
+            <img src="./images/icon-check.svg" alt="check icon" />
+            Unlimited websites
+          </p>
+          <p>
+            <img src="./images/icon-check.svg" alt="check icon" />
+            100% data ownership
+          </p>
+          <p>
+            <img src="./images/icon-check.svg" alt="check icon" />
+            Email reports
+          </p>
+        </div>
+        <button class="btn">Start my trial</button>
       </div>
     </main>
 
@@ -47,7 +72,7 @@
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+        >. Coded by <a href="#">Razvan Gabriel Plingu</a>.
       </div>
     </footer>
     <script src="./script.js"></script>
